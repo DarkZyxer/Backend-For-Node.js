@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // MySQL database configuration
 const db = mysql.createConnection({
   host: 'YOUR_RDS_ENDPOINT',
-  user: 'DB_USER',
+  user: 'USER',
   password: 'DB_PASSWORD',
   database: 'DB_NAME'
 });
