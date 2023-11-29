@@ -6,10 +6,10 @@ const PORT = process.env.PORT || 3000;
 
 // MySQL database configuration
 const db = mysql.createConnection({
-  host: 'YOUR_RDS_ENDPOINT',
-  user: 'USER',
-  password: 'DB_PASSWORD',
-  database: 'DB_NAME'
+  host: 'nodedb.c7vt56houjof.ap-northeast-1.rds.amazonaws.com',
+  user: 'nodedb',
+  password: 'node_database',
+  database: 'node_db'
 });
 
 // Connect to MySQL database
